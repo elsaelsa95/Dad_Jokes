@@ -6,7 +6,7 @@ export const useJokesStore = defineStore({
   state: () => ({
     setup: "",
     punchline: "",
-    url: "https://official-joke-api.appspot.com/random_joke",
+    // url: "https://official-joke-api.appspot.com/random_joke",
   }),
 
   actions: {

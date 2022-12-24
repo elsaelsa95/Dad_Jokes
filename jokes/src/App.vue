@@ -17,23 +17,26 @@ export default {
     <div class="container px-4 px-lg-5 mt-5">
       <div class="container">
         <h1 style="text-align: center">{{ setup }}</h1>
-        <br>
-        <br>
-        <h1 style="text-align: center">{{ punchline }}</h1>
+        <br />
+        <br />
+        <h2 style="text-align: center">{{ punchline }}</h2>
+        <i class="fas fa-grin-tears" style="font-size: 36px"></i>
       </div>
-      <button type="submit" class="btn btn-danger" @click.prevent="getJokes">Reload</button>
+      <button type="submit" class="btn btn-danger" @click.prevent="getJokes">
+        Reload
+      </button>
     </div>
   </section>
 </template>
 
 <style scoped>
 .container {
-  background-color: lightblue;
-  opacity: 75%;
-  margin-top: 10vh;
-  margin-right: 10vh;
-  padding: 20px;
+  background-color: pink;
+  opacity: 90%;
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
   border-radius: 30px;
+  text-align: right;
 }
-
 </style>
