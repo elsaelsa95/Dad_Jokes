@@ -21,7 +21,7 @@ export default {
         <br>
         <h1 style="text-align: center">{{ punchline }}</h1>
       </div>
-      <button class="button" type="submit" class="btn btn-danger" @click.prevent="getJokes">Reload</button>
+      <button type="submit" class="btn btn-danger" @click.prevent="getJokes">Reload</button>
     </div>
   </section>
 </template>
@@ -34,9 +34,6 @@ export default {
   margin-right: 10vh;
   padding: 20px;
   border-radius: 30px;
-}
-.button {
-  
 }
 
 </style>
